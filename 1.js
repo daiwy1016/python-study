@@ -1,0 +1,1 @@
+$("#panel2").on('touchstart',function(){    $("#panel2").on('touchmove',function(event) {     event.preventDefault();     }, true);})$("#panel2").on(' touchend',function(){    $("#panel2").unbind('touchmove');})
